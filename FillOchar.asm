@@ -9,8 +9,8 @@ main:
 	int 10h
 	
 	;set start position 
-	mov dh , 0h ;row(y) (0 - 24)
-	mov dl , 0h ;column(x) (0 - 79)
+	mov dh , 0h ; row(y) (0 - 24)
+	mov dl , 0h ; column(x) (0 - 79) kuyyy
 	mov bh , 0h
 
 printOT:
